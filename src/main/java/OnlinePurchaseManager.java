@@ -30,9 +30,9 @@ return p;
   */
   public boolean hasAdjacentEqualPair()
   {
-For(int I=0;I<purchases.size()-1;I++)
+For(int t=0;t<purchases.size()-1;t++)
 {
-if(purchases.get(I).equals(purchases.get(I+1))){return true;}
+if(purchases.get(t).equals(purchases.get(t+1))){return true;}
 }
 Return false;
 
